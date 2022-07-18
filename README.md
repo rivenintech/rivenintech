@@ -1,6 +1,5 @@
 # Hi, I'm [RiveN](https://github.com/RiveN000)! <img alt="waving gif" src="assets/waving.gif" width="25">
 
-
 ## 👨‍💻 About me
 
 - 🔭 Currently doing the CS50x 2022 Harvard course and polishing my Python.
@@ -9,10 +8,8 @@
 - 🌍 Interested in open-source
 
 <br>
-<br>
 
 ## 🚀 Github stats
-<img align="top" alt="github stats" src="https://github-readme-stats.vercel.app/api/top-langs/?username=RiveN000&layout=compact&bg_color=0D1117&icon_color=12D31D&border_color=0D1117&title_color=FFFFFF">
 <img alt="github stats" src="https://github-readme-stats.vercel.app/api?username=RiveN000&show_icons=true&hide_title=true&theme=gotham&hide=issues&count_private=true&include_all_commits=true&icon_color=12D31D&border_color=0D1117&bg_color=0D1117&title_color=00FF00">
 
 <br>
