@@ -1,0 +1,45 @@
+name: Battleship
+
+on:
+  issues:
+    types: [opened]
+
+jobs:
+  battleship:
+    runs-on: ubuntu-latest
+    if: startsWith(github.event.issue.title, 'battleship')
+    steps:
+    - name: Check out repository code
+      uses: actions/checkout@v3
+
+    - name: Setup Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.x'
+
+    - name: Install packages needed
+      run: python -m pip install -r requirements.txt
+
+    - name: Run python script
+      env:
+        EVENT_ISSUE_TITLE: ${{ github.event.issue.title }}
+        EVENT_USER: ${{ github.event.issue.user.login }}
+        EVENT_USER_ID: ${{ github.event.issue.user.id }}
+        MONGODB_KEY: ${{ secrets.MONGODB_KEY }}
+      run: python main.py
+    
+    - name: Commit and push
+      if: ${{ env.COMMIT_MSG }}
+      run: |
+        git diff
+        git add .
+        git config --global user.name "github-actions[bot]"
+        git config --global user.email "github-actions[bot]@users.noreply.github.com"
+        git commit -m "${{ env.COMMIT_MSG }}" -a
+        git push
+
+    - name: Close issue and comment
+      uses: peter-evans/close-issue@v2
+      with:
+        issue-number: ${{ github.event.issue.number }}
+        comment: ${{ env.ISSUE_MSG }}
