@@ -1,7 +1,7 @@
 # Hi, I'm [RiveN](https://github.com/RiveN000)! <img alt="waving gif" src="assets/waving.gif" width="25">
 
-<a href="https://stackoverflow.com/users/14048071" target="_blank"><img src="https://img.shields.io/badge/-Stackoverflow-f48225?style=flat-square&labelColor=f48225&logo=stackoverflow&logoColor=white" alt="Stackoverflow badge"></a>
-<a href="https://www.hackerrank.com/RiveN000" target="_blank"><img src="https://img.shields.io/badge/-HackerRank-21b857?style=flat-square&labelColor=21b857&logo=hackerrank&logoColor=white" alt="HackerRank badge"></a>
+[![Stackoverflow badge](https://img.shields.io/badge/-Stackoverflow-f48225?style=flat-square&labelColor=f48225&logo=stackoverflow&logoColor=white)](https://stackoverflow.com/users/14048071)
+[![HackerRank badge](https://img.shields.io/badge/-HackerRank-21b857?style=flat-square&labelColor=21b857&logo=hackerrank&logoColor=white)](https://www.hackerrank.com/RiveN000)
 
 - 🔭 Currently doing the CS50x 2022 Harvard course and polishing my Python.
 - 📅 Planning on learning more about Git and Github (Github Actions etc.)
