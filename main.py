@@ -154,7 +154,7 @@ if __name__ == "__main__":
             
             msg = shoot(location)
         
-        issue_msg = f"@{user} :white_check_mark: The README just got updated!\n"
+        issue_msg = ":white_check_mark: README just got updated!\n"
 
         with open(getenv('GITHUB_ENV'), "a") as f:  # Creating custom commit message
             f.write(f"COMMIT_MSG={msg}")
