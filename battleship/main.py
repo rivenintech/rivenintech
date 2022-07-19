@@ -1,9 +1,8 @@
-import random, pymongo
-import battleship.modify_readme as modify_readme
+import random, pymongo, modify_readme 
 from os import getenv
 
 # MongoDB Setup
-cluster = pymongo.MongoClient(getenv("MONGODB_KEY"))
+cluster = pymongo.MongoClient(getenv("/MONGODB_KEY"))
 db = cluster["battleship"]
 data = db["data"]
 players = db["players"]
@@ -19,7 +18,7 @@ places = set(range(0, 71)).difference([8, 17, 26, 35, 44, 53, 62])
 places = places.difference(location_shot)
 col = ["A", "B", "C", "D", "E", "F", "G", "H"]
 row = ["1", "2", "3", "4", "5", "6", "7", "8"]
-user = getenv('EVENT_USER')
+user = getenv('/EVENT_USER')
 
 
 # Finds a place for ships on the board
@@ -97,8 +96,8 @@ def shoot(location : int):
         return_document=pymongo.ReturnDocument.AFTER)
 
     # Update player's database document
-    players.update_one({"_id": getenv("EVENT_USER_ID")}, {
-        "$set": {"name": getenv("EVENT_USER")},
+    players.update_one({"_id": getenv("/EVENT_USER_ID")}, {
+        "$set": {"name": getenv("/EVENT_USER")},
         "$inc": {"total": 1}},
         upsert=True)
 
@@ -106,7 +105,7 @@ def shoot(location : int):
     if location in ships_location:
         ships_left = len(ships_location) - 1
         data.update_one({"_id": "current_game"}, {"$pull": {"ships_location": location}})
-        players.update_one({"_id": getenv("EVENT_USER_ID")}, {"$inc": {"hit": 1}})
+        players.update_one({"_id": getenv("/EVENT_USER_ID")}, {"$inc": {"hit": 1}})
         leaderboard = players.find().sort("hit", pymongo.DESCENDING).limit(5)
 
         # Create alert (for commit and recent moves)
@@ -138,7 +137,7 @@ def shoot(location : int):
 
 if __name__ == "__main__":
     try:
-        title = getenv("EVENT_ISSUE_TITLE").split("|")
+        title = getenv("/EVENT_ISSUE_TITLE").split("|")
 
         if title[1] == "new": # Create new game
             msg = create_game()
