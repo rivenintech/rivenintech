@@ -28,7 +28,7 @@ def new_game(spaces : int):
     template = template.replace("image", "https://raw.githubusercontent.com/RiveN000/RiveN000/main/assets/blank.png")
 
     # Read file content
-    with open("/README.md", "r") as f:
+    with open("README.md", "r") as f:
         file_content = f.readlines()
 
     # Modify the file
@@ -38,13 +38,13 @@ def new_game(spaces : int):
     file_content[start_line + 6] = template
 
     # Save file content
-    with open("/README.md", "w") as f:
+    with open("README.md", "w") as f:
         f.writelines(file_content)
 
 
 def shoot(action : str, location : int, total_shots : int, players_num : int, spaces : int, msg : str, leaderboard : list):
     # Read file content
-    with open("/README.md", "r") as f:
+    with open("README.md", "r") as f:
         file_content = f.readlines()
 
     # Modify the file
@@ -64,13 +64,13 @@ def shoot(action : str, location : int, total_shots : int, players_num : int, sp
         file_content[start_line + 32 + x] = f"|[@{player['name']}](https://github.com/{player['name']})|{player['hit']}|{player['total']}|\n"
 
     # Save file content
-    with open("/README.md", "w") as f:
+    with open("README.md", "w") as f:
         f.writelines(file_content)
 
 
 def game_ended(total_games : int, shots_num : int, places_left : list):
     # Read file content
-    with open("/README.md", "r") as f:
+    with open("README.md", "r") as f:
         file_content = f.readlines()
 
     # Modify the file
@@ -86,5 +86,5 @@ def game_ended(total_games : int, shots_num : int, places_left : list):
         file_content[row] = "|".join(temp)
 
     # Save file content
-    with open("/README.md", "w") as f:
+    with open("README.md", "w") as f:
         f.writelines(file_content)
