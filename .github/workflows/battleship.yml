@@ -26,7 +26,7 @@ jobs:
         EVENT_USER: ${{ github.event.issue.user.login }}
         EVENT_USER_ID: ${{ github.event.issue.user.id }}
         MONGODB_KEY: ${{ secrets.MONGODB_KEY }}
-      run: python main.py
+      run: python battleship/main.py
     
     - name: Commit and push
       if: ${{ env.COMMIT_MSG }}
