@@ -51,8 +51,6 @@
 |   |   |   |
 |   |   |   |
 
-<hr>
-
 <div align=center>
     <img src="https://raw.githubusercontent.com/RiveN000/RiveN000/snake/github-contribution-snake.svg" />
 <div>
