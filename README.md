@@ -1,13 +1,12 @@
 # Hi, I'm [RiveN](https://github.com/RiveN000)! <img alt="waving gif" src="assets/waving.gif" width="25">
 
-## 👨‍💻 About me
+[![Stackoverflow badge](https://img.shields.io/badge/-Stackoverflow-f48225?style=flat-square&labelColor=f48225&logo=stackoverflow&logoColor=white)](https://stackoverflow.com/users/14048071)
+[![HackerRank badge](https://img.shields.io/badge/-HackerRank-21b857?style=flat-square&labelColor=21b857&logo=hackerrank&logoColor=white)](https://stackoverflow.com/users/14048071)
 
 - 🔭 Currently doing the CS50x 2022 Harvard course and polishing my Python.
 - 📅 Planning on learning more about Git and Github (Github Actions etc.)
 - 🤔 Thinking about learning another programming language (C++/JS)
 - 🌍 Interested in open-source
-
-<br>
 
 ## 🚀 Github stats
 <img alt="github stats" src="https://github-readme-stats.vercel.app/api?username=RiveN000&show_icons=true&hide_title=true&theme=gotham&hide=issues&count_private=true&include_all_commits=true&icon_color=12D31D&border_color=0D1117&bg_color=0D1117&title_color=00FF00">
@@ -51,13 +50,3 @@
 |   |   |   |
 |   |   |   |
 |   |   |   |
-
-<br>
-
-<div align="center">
-<h3>📨 My accounts:</h3>
-
-<a href="https://stackoverflow.com/users/14048071">
-<img src="assets/stack_overflow.png" alt="stackoverflow logo" width="40" height="40">
-</a>
-</div>
