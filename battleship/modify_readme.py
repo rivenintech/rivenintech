@@ -1,10 +1,10 @@
 start_line = 16 - 1 # Line number of "Try out my Battleship game!"
 
-def new_game(spaces : int):
+def new_game(loc_left : int):
     links = [f"https://github.com/RiveN000/RiveN000/issues/new?title=battleship%7Cshoot%7C{x}&body=Just+push+%27Submit+new+issue%27+without+editing+the+title.+The+README+will+be+updated+after+approximately+30+seconds." for x in range(0, 71)]
 
     template = f"""
-**🎯 Game still didn't end! Spaces left: {spaces}**
+**🎯 Game still didn't end! Squares with ship left: {loc_left}**
 
 |       | A  | B  | C  | D  | E  | F  | G  | H  |
 |-------|----|----|----|----|----|----|----|----|
@@ -42,7 +42,7 @@ def new_game(spaces : int):
         f.writelines(file_content)
 
 
-def shoot(action : str, location : int, total_shots : int, players_num : int, spaces : int, msg : str, leaderboard : list):
+def shoot(action : str, location : int, total_moves : int, players_num : int, loc_left : int, msg : str, leaderboard : list):
     # Read file content
     with open("README.md", "r") as f:
         file_content = f.readlines()
@@ -53,13 +53,14 @@ def shoot(action : str, location : int, total_shots : int, players_num : int, sp
     temp = file_content[row].split("|")
     temp[col] = f"![](https://raw.githubusercontent.com/RiveN000/RiveN000/main/assets/{action}_mark.png)"
     file_content[row] = "|".join(temp)
-    file_content[start_line + 1] = f"![](https://img.shields.io/badge/Total%20shots-{total_shots}-blue)\n"
+    file_content[start_line + 1] = f"![](https://img.shields.io/badge/Total%20moves-{total_moves}-blue)\n"
     file_content[start_line + 3] = f"![](https://img.shields.io/badge/Total%20players-{players_num}-orange)\n"
-    file_content[start_line + 7] = f"**🎯 Game still didn't end! Spaces left: {spaces}**\n"
+    file_content[start_line + 7] = f"**🎯 Game still didn't end! Squares with ship left: {loc_left}**\n"
     file_content[start_line + 26] = file_content[start_line + 25]
     file_content[start_line + 25] = file_content[start_line + 24]
     file_content[start_line + 24] = msg
 
+    # Update leaderboard
     for x, player in enumerate(leaderboard):
         file_content[start_line + 32 + x] = f"|[@{player['name']}](https://github.com/{player['name']})|{player['hit']}|{player['total']}|\n"
 
@@ -75,7 +76,7 @@ def game_ended(total_games : int, shots_num : int, places_left : list):
 
     # Modify the file
     file_content[start_line + 2] = f"![](https://img.shields.io/badge/Total%20games-{total_games}-brightgreen)\n"
-    file_content[start_line + 7] = f"**🎉 Game ended! It took: {shots_num} shots! [Click here to start new game.](https://github.com/RiveN000/RiveN000/issues/new?title=battleship%7Cnew&body=Just+push+%27Submit+new+issue%27+without+editing+the+title.+The+README+will+be+updated+after+approximately+30+seconds.)**\n"
+    file_content[start_line + 7] = f"**🎉 Game ended! It took: {shots_num} tries! [Click here to start new game.](https://github.com/RiveN000/RiveN000/issues/new?title=battleship%7Cnew&body=Just+push+%27Submit+new+issue%27+without+editing+the+title.+The+README+will+be+updated+after+approximately+30+seconds.)**\n"
 
     # Loop through all locations that are left and change to "blank.png"
     for location in places_left:

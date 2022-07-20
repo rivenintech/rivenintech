@@ -92,7 +92,7 @@ def shoot(location : int):
         return_document=pymongo.ReturnDocument.AFTER)
 
     stats = data.find_one_and_update({"_id": "stats"}, {
-        "$inc": {"total_shots": 1}},
+        "$inc": {"total_moves": 1}},
         return_document=pymongo.ReturnDocument.AFTER)
 
     # Update player's database document
@@ -112,7 +112,7 @@ def shoot(location : int):
         msg = f"[@{user}](https://github.com/{user}) hit the ship at location **{loc}**\n"
 
         # Render README
-        modify_readme.shoot("hit", location, stats["total_shots"], players.count_documents({}), ships_left, msg, leaderboard)
+        modify_readme.shoot("hit", location, stats["total_moves"], players.count_documents({}), ships_left, msg, leaderboard)
 
         # No ships left. Game ended
         if ships_left == 0:
@@ -130,7 +130,7 @@ def shoot(location : int):
         leaderboard = players.find().sort("hit", pymongo.DESCENDING).limit(5)
         
         # Render README
-        modify_readme.shoot("miss", location, stats["total_shots"], players.count_documents({}), len(ships_location), msg, leaderboard)
+        modify_readme.shoot("miss", location, stats["total_moves"], players.count_documents({}), len(ships_location), msg, leaderboard)
 
         return f"@{user} missed the ship at location {loc}\n"
 

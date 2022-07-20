@@ -20,7 +20,7 @@
 
 💣 All the ships were randomly placed on the board. Try to drown all of them by choosing your spot to shoot. Just click on any empty space!
 
-**🎯 Game still didn't end! Spaces left: 17**
+**🎯 Game still didn't end! Ships' location left: 17**
 
 |       | A  | B  | C  | D  | E  | F  | G  | H  |
 |-------|----|----|----|----|----|----|----|----|
@@ -43,7 +43,7 @@
 
 **🏆 Leaderboard: Top 5 players with most shots that hit the ships**
 
-|Player|Shots hit|Total shots|
+|Player|Shots hit|Total moves|
 |---|---|---|
 |[@RiveN000](https://github.com/RiveN000)|0|1|
 |   |   |   |
