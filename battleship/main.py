@@ -98,7 +98,7 @@ def shoot(location : int):
     # Update player's database document
     players.update_one({"_id": getenv("EVENT_USER_ID")}, {
         "$set": {"name": getenv("EVENT_USER")},
-        "$inc": {"total": 1}},
+        "$inc": {"total": 1, "hit": 0}},
         upsert=True)
 
     # Hit ship (count ships left, update database and get leaderboard)

@@ -64,11 +64,9 @@ def shoot(action : str, location : int, total_moves : int, players_num : int, lo
     for x, player in enumerate(leaderboard):
         file_content[start_line + 32 + x] = f"|[@{player['name']}](https://github.com/{player['name']})|{player['hit']}|{player['total']}|\n"
 
-    print("TEST")
     # Save file content
     with open("README.md", "w") as f:
         f.writelines(file_content)
-    print("TEST2")
 
 
 def game_ended(total_games : int, shots_num : int, places_left : list):
