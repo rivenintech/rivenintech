@@ -43,6 +43,7 @@ def new_game(loc_left : int):
 
 
 def shoot(action : str, location : int, total_moves : int, players_num : int, loc_left : int, msg : str, leaderboard : list):
+    print("Modifying README")
     # Read file content
     with open("README.md", "r") as f:
         file_content = f.readlines()
@@ -60,6 +61,7 @@ def shoot(action : str, location : int, total_moves : int, players_num : int, lo
     file_content[start_line + 25] = file_content[start_line + 24]
     file_content[start_line + 24] = msg
 
+    print("Updating leaderboard")
     # Update leaderboard
     for x, player in enumerate(leaderboard):
         file_content[start_line + 32 + x] = f"|[@{player['name']}](https://github.com/{player['name']})|{player['hit']}|{player['total']}|\n"
