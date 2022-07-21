@@ -20,7 +20,7 @@
 
 💣 All the ships were randomly placed on the board. Try to drown all of them by choosing your spot to shoot. Just click on any empty space!
 
-**🎯 Game still didn't end! Squares with ships left: 17**
+**:dart: Game still didn't end! Squares with ships left: 17**
 
 |       | A  | B  | C  | D  | E  | F  | G  | H  |
 |-------|----|----|----|----|----|----|----|----|
