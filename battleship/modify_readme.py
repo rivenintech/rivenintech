@@ -1,4 +1,4 @@
-start_line = 16 - 1 # Line number of "Try out my Battleship game!"
+start_line = 19 - 1 # Line number of "Try out my Battleship game!"
 
 def new_game(loc_left : int):
     links = [f"https://github.com/RiveN000/RiveN000/issues/new?title=battleship%7Cshoot%7C{x}&body=Just+push+%27Submit+new+issue%27+without+editing+the+title.+The+README+will+be+updated+after+approximately+30+seconds." for x in range(0, 71)]
