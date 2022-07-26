@@ -9,10 +9,10 @@
 - 🌍 Interested in open-source
 
 ## 🚀 Github stats
-[<img width="47%" alt="github stats light" src="https://github-readme-stats.vercel.app/api?username=RiveN000&theme=default&show_icons=true&hide_title=true&hide_border=true&hide=issues&count_private=true&include_all_commits=true&icon_color=12D31D&title_color=00FF00" />](https://github.com/RiveN000#gh-light-mode-only)
-[<img width="40.5%" alt="top languages light" src="https://github-readme-stats.vercel.app/api/top-langs/?username=RiveN000&theme=default&count_private=true&hide_border=true&title_color=454d57&layout=compact" />](https://github.com/RiveN000#gh-light-mode-only)
-[<img width="47%" alt="github stats dark" src="https://github-readme-stats.vercel.app/api?username=RiveN000&theme=github_dark&show_icons=true&hide_title=true&hide_border=true&hide=issues&count_private=true&include_all_commits=true&icon_color=12D31D&title_color=00FF00" />](https://github.com/RiveN000#gh-dark-mode-only)
-[<img width="40.5%" alt="top languages dark" src="https://github-readme-stats.vercel.app/api/top-langs/?username=RiveN000&theme=github_dark&count_private=true&hide_border=true&title_color=c1cbd3&layout=compact" />](https://github.com/RiveN000#gh-dark-mode-only)
+[<img width="50.25%" alt="github stats light" src="https://github-readme-stats.vercel.app/api?username=RiveN000&theme=default&show_icons=true&hide_title=true&hide_border=true&hide=issues&count_private=true&include_all_commits=true&icon_color=12D31D&title_color=00FF00" />](https://github.com/RiveN000#gh-light-mode-only)
+[<img width="43.75%" alt="top languages light" src="https://github-readme-stats.vercel.app/api/top-langs/?username=RiveN000&theme=default&count_private=true&hide_border=true&title_color=454d57&layout=compact" />](https://github.com/RiveN000#gh-light-mode-only)
+[<img width="50.25%" alt="github stats dark" src="https://github-readme-stats.vercel.app/api?username=RiveN000&theme=github_dark&show_icons=true&hide_title=true&hide_border=true&hide=issues&count_private=true&include_all_commits=true&icon_color=12D31D&title_color=00FF00" />](https://github.com/RiveN000#gh-dark-mode-only)
+[<img width="43.75%" alt="top languages dark" src="https://github-readme-stats.vercel.app/api/top-langs/?username=RiveN000&theme=github_dark&count_private=true&hide_border=true&title_color=c1cbd3&layout=compact" />](https://github.com/RiveN000#gh-dark-mode-only)
 
 <br>
 
