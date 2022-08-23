@@ -7,7 +7,7 @@
 4. [Creating a new game](#creating-a-new-game)
     1. [Database](#database)
     2. [Modifying the README.md](#modifying-the-README)
-    3. [Commiting, pushing and closing the issue](#commiting,-pushing-and-closing-the-issue)
+    3. [Commiting, pushing, and closing the issue](#commiting,-pushing-and-closing-the-issue)
 5. [Playing the game](#playing-the-game)
 6. [Cool additions](#cool-additions)
 7. [Inspirations](#inspirations)
@@ -25,7 +25,7 @@ To represent the board, I created this [bitboard](https://en.wikipedia.org/wiki/
 
 ```
 +---------------------------------------+
-| 0  | 1  | 2  | 3  | 4  | 5  | 6  | 7  |  8   
+| 0  | 1  | 2  | 3  | 4  | 5  | 6  | 7  |  8
 | 9  | 10 | 11 | 12 | 13 | 14 | 15 | 16 |  17
 | 18 | 19 | 20 | 21 | 22 | 23 | 24 | 25 |  26
 | 27 | 28 | 29 | 30 | 31 | 32 | 33 | 34 |  35
@@ -48,7 +48,7 @@ Now we have to store ships location somewhere. We could place them in a plain te
 ### Modifying the README
 Time to change our board visually by modifying the `README` file. We can do it using the same method we would use to [modify a text file](https://www.w3schools.com/python/python_file_handling.asp). First, we read the file line by line and save content to a variable. We can then [modify the specific lines we want](https://www.adamsmith.haus/python/answers/how-to-edit-a-specific-line-in-a-text-file-in-python). To create an empty table cell, I used a blank image with a link by using this format `[![](image link)](link that creates issue)`.
 
-### Commiting, pushing and closing the issue
+### Committing, pushing, and closing the issue
 The last step is to commit and push everything to Github. We can do it with Github Actions with a few commands (***battleships.yml > Commit and push***). Then to keep everything clean, we should close the issue by using [`peter-evans/close-issue@v2`](https://github.com/marketplace/actions/close-issue) with Github Actions.
 
 ## Playing the game
