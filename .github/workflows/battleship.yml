@@ -3,6 +3,8 @@ name: Battleship
 on:
   issues:
     types: [opened]
+concurrency:
+  group: battleship
 
 jobs:
   battleship:
