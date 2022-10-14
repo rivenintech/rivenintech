@@ -13,6 +13,10 @@ jobs:
     steps:
     - name: Check out repository code
       uses: actions/checkout@v3
+      
+    - name: Pull new commits
+      run: |
+        git pull
 
     - name: Setup Python
       uses: actions/setup-python@v4
