@@ -3,7 +3,7 @@
 [![Stackoverflow badge](https://img.shields.io/badge/-Stackoverflow-f48225?style=flat-square&labelColor=f48225&logo=stackoverflow&logoColor=white)](https://stackoverflow.com/users/14048071)
 [![HackerRank badge](https://img.shields.io/badge/-HackerRank-21b857?style=flat-square&labelColor=21b857&logo=hackerrank&logoColor=white)](https://www.hackerrank.com/RiveN000)
 
-- 🔭 Currently doing the CS50x 2022 Harvard course and polishing my Python.
+- 🔭 Currently working on my website.
 - 📅 Planning on learning more about Git and Github (Github Actions etc.)
 - 🤔 Thinking about learning another programming language (C++/JS)
 - 🌍 Interested in open-source
