@@ -4,7 +4,7 @@
 [![HackerRank badge](https://img.shields.io/badge/-HackerRank-21b857?style=flat-square&labelColor=21b857&logo=hackerrank&logoColor=white)](https://www.hackerrank.com/RiveN000)
 
 - 🔭 Currently working on my website.
-- 📅 Planning on learning more about Git and Github (Github Actions etc.)
+- 📅 Finishing CS50P course from Harvard.
 - 🤔 Thinking about learning another programming language (C++/JS)
 - 🌍 Interested in open-source
 
