@@ -53,3 +53,5 @@
 |   |   |   |
 |   |   |   |
 |   |   |   |
+
+Interested in learning how it works? [Check out my blog post about it](https://rivenintech.com/projects/battleship-game-in-readme/).
