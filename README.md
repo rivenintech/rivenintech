@@ -4,8 +4,7 @@
 [![HackerRank badge](https://img.shields.io/badge/-HackerRank-21b857?style=flat-square&labelColor=21b857&logo=hackerrank&logoColor=white)](https://www.hackerrank.com/rivenintech)
 
 - 🔭 Currently working on my website.
-- 📅 Finishing CS50P course from Harvard.
-- 🤔 Thinking about learning another programming language (C++/JS)
+- 📅 Finishing CS50W course from Harvard.
 - 🌍 Interested in open-source
 
 ## 🚀 Github stats
