@@ -17,13 +17,13 @@
 
 ## ⛵ Try out my Battleship game!
 ![](https://img.shields.io/badge/Total%20moves-21-blue)
-![](https://img.shields.io/badge/Total%20moves-22-blue)
+![](https://img.shields.io/badge/Completed%20games-0-brightgreen)
 ![](https://img.shields.io/badge/Total%20players-2-orange)
-![](https://img.shields.io/badge/Total%20players-2-orange)
+
 💣 All the ships were randomly placed on the board. Try to drown all of them by choosing your spot to shoot. Just click on any empty space!
 
 **:dart: Game still didn't end! Squares with ships left: 7**
-**:dart: Game still didn't end! Squares with ships left: 7**
+
 |       | A  | B  | C  | D  | E  | F  | G  | H  |
 |-------|----|----|----|----|----|----|----|----|
 | **1** |![](https://raw.githubusercontent.com/rivenintech/rivenintech/main/assets/hit_mark.png)|![](https://raw.githubusercontent.com/rivenintech/rivenintech/main/assets/hit_mark.png)|![](https://raw.githubusercontent.com/rivenintech/rivenintech/main/assets/miss_mark.png)|![](https://raw.githubusercontent.com/rivenintech/rivenintech/main/assets/miss_mark.png)|[![](https://raw.githubusercontent.com/rivenintech/rivenintech/main/assets/blank.png)](https://github.com/rivenintech/rivenintech/issues/new?title=battleship%7Cshoot%7C4&body=Just+push+%27Submit+new+issue%27+without+editing+the+title.+The+README+will+be+updated+after+approximately+30+seconds.)|[![](https://raw.githubusercontent.com/rivenintech/rivenintech/main/assets/blank.png)](https://github.com/rivenintech/rivenintech/issues/new?title=battleship%7Cshoot%7C5&body=Just+push+%27Submit+new+issue%27+without+editing+the+title.+The+README+will+be+updated+after+approximately+30+seconds.)|[![](https://raw.githubusercontent.com/rivenintech/rivenintech/main/assets/blank.png)](https://github.com/rivenintech/rivenintech/issues/new?title=battleship%7Cshoot%7C6&body=Just+push+%27Submit+new+issue%27+without+editing+the+title.+The+README+will+be+updated+after+approximately+30+seconds.)|[![](https://raw.githubusercontent.com/rivenintech/rivenintech/main/assets/blank.png)](https://github.com/rivenintech/rivenintech/issues/new?title=battleship%7Cshoot%7C7&body=Just+push+%27Submit+new+issue%27+without+editing+the+title.+The+README+will+be+updated+after+approximately+30+seconds.)|
@@ -40,16 +40,16 @@
 |⏰ Most recent moves|
 |--------------------|
 [@rivenintech](https://github.com/rivenintech) missed the ship at location **G5**
-[@rivenintech](https://github.com/rivenintech) missed the ship at location **G4**
 [@rivenintech](https://github.com/rivenintech) missed the ship at location **C5**
 [@rivenintech](https://github.com/rivenintech) missed the ship at location **E8**
+
 **🏆 Leaderboard: Top 5 players with most shots that hit the ships**
 
 |Player|Shots hit|Total moves|
 |---|---|---|
 |[@rivenintech](https://github.com/rivenintech)|10|20|
-|[@rivenintech](https://github.com/rivenintech)|10|21|
 |[@TheKunX](https://github.com/TheKunX)|0|1|
+|   |   |   |
 |   |   |   |
 |   |   |   |
 

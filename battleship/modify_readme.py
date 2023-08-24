@@ -1,7 +1,18 @@
-start_line = 19 - 1 # Line number of "Try out my Battleship game!"
+# Get line number of "Try out my Battleship game!"
+with open("README.md", "r") as f:
+    # Read file content
+    file_content = f.readlines()
 
-def new_game(loc_left : int):
-    links = [f"https://github.com/RiveN000/RiveN000/issues/new?title=battleship%7Cshoot%7C{x}&body=Just+push+%27Submit+new+issue%27+without+editing+the+title.+The+README+will+be+updated+after+approximately+30+seconds." for x in range(0, 71)]
+for index, line in enumerate(file_content):
+    if "Try out my Battleship game!" in line:
+        start_line = index
+
+
+def new_game(loc_left: int):
+    links = [
+        f"https://github.com/RiveN000/RiveN000/issues/new?title=battleship%7Cshoot%7C{x}&body=Just+push+%27Submit+new+issue%27+without+editing+the+title.+The+README+will+be+updated+after+approximately+30+seconds."
+        for x in range(0, 71)
+    ]
 
     template = f"""
 **:dart: Game still didn't end! Squares with ships left: {loc_left}**
@@ -25,7 +36,10 @@ def new_game(loc_left : int):
 |                    |
 |                    |
 """
-    template = template.replace("image", "https://raw.githubusercontent.com/RiveN000/RiveN000/main/assets/blank.png")
+    template = template.replace(
+        "image",
+        "https://raw.githubusercontent.com/RiveN000/RiveN000/main/assets/blank.png",
+    )
 
     # Read file content
     with open("README.md", "r") as f:
@@ -42,7 +56,15 @@ def new_game(loc_left : int):
         f.writelines(file_content)
 
 
-def shoot(action : str, location : int, total_moves : int, players_num : int, loc_left : int, msg : str, leaderboard : list):
+def shoot(
+    action: str,
+    location: int,
+    total_moves: int,
+    players_num: int,
+    loc_left: int,
+    msg: str,
+    leaderboard: list,
+):
     # Read file content
     with open("README.md", "r") as f:
         file_content = f.readlines()
@@ -51,39 +73,55 @@ def shoot(action : str, location : int, total_moves : int, players_num : int, lo
     row = location // 9 + (start_line + 11)
     col = location % 9 + 2
     temp = file_content[row].split("|")
-    temp[col] = f"![](https://raw.githubusercontent.com/RiveN000/RiveN000/main/assets/{action}_mark.png)"
+    temp[
+        col
+    ] = f"![](https://raw.githubusercontent.com/RiveN000/RiveN000/main/assets/{action}_mark.png)"
     file_content[row] = "|".join(temp)
-    file_content[start_line + 1] = f"![](https://img.shields.io/badge/Total%20moves-{total_moves}-blue)\n"
-    file_content[start_line + 3] = f"![](https://img.shields.io/badge/Total%20players-{players_num}-orange)\n"
-    file_content[start_line + 7] = f"**:dart: Game still didn't end! Squares with ships left: {loc_left}**\n"
+    file_content[
+        start_line + 1
+    ] = f"![](https://img.shields.io/badge/Total%20moves-{total_moves}-blue)\n"
+    file_content[
+        start_line + 3
+    ] = f"![](https://img.shields.io/badge/Total%20players-{players_num}-orange)\n"
+    file_content[
+        start_line + 7
+    ] = f"**:dart: Game still didn't end! Squares with ships left: {loc_left}**\n"
     file_content[start_line + 26] = file_content[start_line + 25]
     file_content[start_line + 25] = file_content[start_line + 24]
     file_content[start_line + 24] = msg
 
     # Update leaderboard
     for x, player in enumerate(leaderboard):
-        file_content[start_line + 32 + x] = f"|[@{player['name']}](https://github.com/{player['name']})|{player['hit']}|{player['total']}|\n"
+        file_content[
+            start_line + 32 + x
+        ] = f"|[@{player['name']}](https://github.com/{player['name']})|{player['hit']}|{player['total']}|\n"
 
     # Save file content
     with open("README.md", "w") as f:
         f.writelines(file_content)
 
 
-def game_ended(total_games : int, shots_num : int, places_left : list):
+def game_ended(total_games: int, shots_num: int, places_left: list):
     # Read file content
     with open("README.md", "r") as f:
         file_content = f.readlines()
 
     # Modify the file
-    file_content[start_line + 2] = f"![](https://img.shields.io/badge/Total%20games-{total_games}-brightgreen)\n"
-    file_content[start_line + 7] = f"**:tada: Game ended! It took: {shots_num} tries! [Click here to start new game.](https://github.com/RiveN000/RiveN000/issues/new?title=battleship%7Cnew&body=Just+push+%27Submit+new+issue%27+without+editing+the+title.+The+README+will+be+updated+after+approximately+30+seconds.)**\n"
+    file_content[
+        start_line + 2
+    ] = f"![](https://img.shields.io/badge/Total%20games-{total_games}-brightgreen)\n"
+    file_content[
+        start_line + 7
+    ] = f"**:tada: Game ended! It took: {shots_num} tries! [Click here to start new game.](https://github.com/RiveN000/RiveN000/issues/new?title=battleship%7Cnew&body=Just+push+%27Submit+new+issue%27+without+editing+the+title.+The+README+will+be+updated+after+approximately+30+seconds.)**\n"
 
     # Loop through all locations that are left and change to "blank.png"
     for location in places_left:
         row = location // 9 + (start_line + 11)
         col = location % 9 + 2
         temp = file_content[row].split("|")
-        temp[col] = f"![](https://raw.githubusercontent.com/RiveN000/RiveN000/main/assets/blank.png)"
+        temp[
+            col
+        ] = f"![](https://raw.githubusercontent.com/RiveN000/RiveN000/main/assets/blank.png)"
         file_content[row] = "|".join(temp)
 
     # Save file content
