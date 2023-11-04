@@ -127,7 +127,7 @@ def shoot(location : int):
         msg = f"[@{user}](https://github.com/{user}) missed the ship at location **{loc}**\n"
 
         # Get leaderboard
-        leaderboard = players.find().sort("hit", pymongo.DESCENDING).limit(5)
+        leaderboard = players.find().sort({"hit": pymongo.DESCENDING, "total": pymongo.DESCENDING}).limit(5)
         
         # Render README
         modify_readme.shoot("miss", location, stats["total_moves"], players.count_documents({}), len(ships_location), msg, leaderboard)
