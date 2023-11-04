@@ -106,7 +106,7 @@ def shoot(location : int):
         ships_left = len(ships_location) - 1
         data.update_one({"_id": "current_game"}, {"$pull": {"ships_location": location}})
         players.update_one({"_id": getenv("EVENT_USER_ID")}, {"$inc": {"hit": 1}})
-        leaderboard = players.find().sort("hit", pymongo.DESCENDING).limit(5)
+        leaderboard = players.find().sort({"hit": pymongo.DESCENDING, "total": pymongo.DESCENDING}).limit(5)
 
         # Create alert (for commit and recent moves)
         msg = f"[@{user}](https://github.com/{user}) hit the ship at location **{loc}**\n"
