@@ -1,5 +1,6 @@
 import random
 from os import getenv
+from string import ascii_uppercase
 
 import modify_readme
 import pymongo
@@ -15,18 +16,25 @@ info = data.find_one({"_id": "current_game"})
 ships_location = info["ships_location"]
 location_shot = info["location_shot"]
 
-# Some default values
+# These values can be changed to change the game
 ships = [2, 3, 3, 4, 5]
-places = set(range(0, 71)).difference([8, 17, 26, 35, 44, 53, 62])
-places = places.difference(location_shot)
-col = ["A", "B", "C", "D", "E", "F", "G", "H"]
-row = ["1", "2", "3", "4", "5", "6", "7", "8"]
+rows = 8
+cols = 8
+
+# Don't change these values
+# https://rivenintech.com/projects/battleship-game-in-readme#board-representation
+places = set(range(0, rows * (cols + 1)))
+# Remove extra column and location shot from available places
+places = places.difference(list(places)[cols :: cols + 1])
+col = list(ascii_uppercase[:cols])
+row = list(range(1, rows + 1))
 user = getenv("EVENT_USER")
 
 
 # Finds a place for ships on the board
 def place_ships():
     global ships_location
+    available_places = places
 
     for ship_size in ships:
         while True:
@@ -35,14 +43,10 @@ def place_ships():
                 [1, 9]
             )  # Pick random direction (Right/left or up/down)
 
-            while (
-                True
-            ):  # Choose random place on board and make sure it's not already used
-                start_point = random.choice(list(places))
-
-                if start_point not in ships_location:
-                    points.append(start_point)
-                    break
+            while True:  # Choose random available place on board
+                start_point = random.choice(list(available_places))
+                points.append(start_point)
+                break
 
             for _ in range(
                 ship_size - 1
@@ -57,12 +61,12 @@ def place_ships():
                 x = random.randint(0, 1)
 
                 if (
-                    choices[x] not in places or choices[x] in ships_location
+                    choices[x] not in available_places
                 ):  # Place picked is incorrect or not available
                     x = abs(x - 1)
 
                     if (
-                        choices[x] not in places or choices[x] in ships_location
+                        choices[x] not in available_places
                     ):  # Place picked is incorrect or not available
                         break  # Can't place ship, no available space
 
@@ -70,7 +74,41 @@ def place_ships():
 
             if len(points) == ship_size:  # Return if places where picked correctly
                 ships_location += points
+                available_places -= get_surrounding_places(points, rows, cols)
                 break
+
+
+def get_surrounding_places(points, rows, cols):
+    surrounding_points = set()
+
+    for point in points:
+        row_idx = point // cols
+        col_idx = point % cols
+
+        # Add the current point
+        surrounding_points.add(point)
+
+        # Add left, right, up, down
+        if col_idx > 0:
+            surrounding_points.add(point - 1)
+        if col_idx < cols - 1:
+            surrounding_points.add(point + 1)
+        if row_idx > 0:
+            surrounding_points.add(point - cols)
+        if row_idx < rows - 1:
+            surrounding_points.add(point + cols)
+
+        # Add diagonals
+        if col_idx > 0 and row_idx > 0:
+            surrounding_points.add(point - cols - 1)
+        if col_idx < cols - 1 and row_idx > 0:
+            surrounding_points.add(point - cols + 1)
+        if col_idx > 0 and row_idx < rows - 1:
+            surrounding_points.add(point + cols - 1)
+        if col_idx < cols - 1 and row_idx < rows - 1:
+            surrounding_points.add(point + cols + 1)
+
+    return surrounding_points
 
 
 def create_game():
@@ -159,7 +197,9 @@ def shoot(location: int):
             data.update_one({"_id": "stats"}, {"$inc": {"total_games": 1}})
 
             modify_readme.game_ended(
-                stats["total_games"] + 1, current_game["shots_num"], list(places)
+                stats["total_games"] + 1,
+                current_game["shots_num"],
+                list(places.difference(location_shot)),
             )
 
         return f"@{user} hit the ship at location {loc}\n"
@@ -205,7 +245,7 @@ if __name__ == "__main__":
                 )
 
             # Incorrect location
-            if location not in places:
+            if location not in places.difference(location_shot):
                 raise Exception(
                     f"@{user} :x: Location is incorrect. Did you modify the issue title?\n"
                 )
