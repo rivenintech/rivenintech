@@ -17,7 +17,7 @@ ships_location = info["ships_location"]
 location_shot = info["location_shot"]
 
 # These values can be changed to change the game
-ships = [2, 3, 3, 4, 5]
+ships = [4, 3, 3, 2, 2, 2]
 rows = 8
 cols = 8
 
@@ -37,7 +37,8 @@ def place_ships():
     available_places = places
 
     for ship_size in ships:
-        while True:
+        # Try 100 times to place ship
+        for _ in range(100):
             points = []
             direction = random.choice(
                 [1, 9]
@@ -72,10 +73,14 @@ def place_ships():
 
                 points.append(choices[x])
 
-            if len(points) == ship_size:  # Return if places where picked correctly
+            # If places were picked correctly - break
+            if len(points) == ship_size:
                 ships_location += points
                 available_places -= get_surrounding_places(points, rows, cols)
                 break
+        # If ship wasn't placed after 100 tries, try again (unlikely to happen, but possible on smaller boards)
+        else:
+            return place_ships()
 
 
 def get_surrounding_places(points, rows, cols):
@@ -119,6 +124,7 @@ def create_game():
 
     # Finds place for all ships on the board and adds them to "ships_location"
     place_ships()
+    print("Ships placed! ⚓")
 
     # Database - Adds ships location, clears location shot and number of shots
     data.update_one(
