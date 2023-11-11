@@ -199,7 +199,7 @@ def shoot(location: int):
             modify_readme.game_ended(
                 stats["total_games"] + 1,
                 current_game["shots_num"],
-                list(places.difference(location_shot)),
+                list(places.difference(current_game["location_shot"])),
             )
 
         return f"@{user} hit the ship at location {loc}\n"
