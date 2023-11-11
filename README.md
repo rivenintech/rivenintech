@@ -17,7 +17,7 @@
 
 ## ⛵ Try out my Battleship game!
 ![](https://img.shields.io/badge/Total%20moves-34-blue)
-![](https://img.shields.io/badge/Total%20games-1-brightgreen)
+![](https://img.shields.io/badge/Finished%20games-1-brightgreen)
 ![](https://img.shields.io/badge/Total%20players-4-orange)
 
 💣 All the ships were randomly placed on the board. Try to drown all of them by choosing your spot to shoot. Just click on any empty space!
