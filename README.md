@@ -1,11 +1,13 @@
 # Hi, I'm [RiveN](https://github.com/rivenintech)! <img alt="waving gif" src="assets/waving.gif" width="25">
 
+[![Contact Me badge](https://img.shields.io/badge/-Contact%20Me-000000?style=flat-square&labelColor=000000&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxZW0iIGhlaWdodD0iMWVtIiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9IndoaXRlIiBkPSJNNCAyMHEtLjgyNSAwLTEuNDEyLS41ODdUMiAxOFY2cTAtLjgyNS41ODgtMS40MTJUNCA0aDE2cS44MjUgMCAxLjQxMy41ODhUMjIgNnYxMnEwIC44MjUtLjU4NyAxLjQxM1QyMCAyMHptOC03bDgtNVY2bC04IDVsLTgtNXYyeiIvPjwvc3ZnPg==)](https://rivenintech.com/#contact)
+[![X badge](https://img.shields.io/badge/-Twitter-000000?style=flat-square&labelColor=000000&logo=x&logoColor=white)](https://twitter.com/rivenintech)
+[![Medium badge](https://img.shields.io/badge/-Medium-000000?style=flat-square&labelColor=000000&logo=medium&logoColor=white)](https://medium.com/@RiveN000)
 [![Stackoverflow badge](https://img.shields.io/badge/-Stackoverflow-f48225?style=flat-square&labelColor=f48225&logo=stackoverflow&logoColor=white)](https://stackoverflow.com/users/14048071)
+[![Frontend Mentor badge](https://img.shields.io/badge/-Frontend%20Mentor-3F54A3?style=flat-square&labelColor=3F54A3&logo=frontendmentor&logoColor=white)](https://www.frontendmentor.io/profile/rivenintech)
 [![HackerRank badge](https://img.shields.io/badge/-HackerRank-21b857?style=flat-square&labelColor=21b857&logo=hackerrank&logoColor=white)](https://www.hackerrank.com/rivenintech)
 
-- 🔭 Currently working on my website.
-- 📅 Finishing CS50W course from Harvard.
-- 🌍 Interested in open-source
+I'm a high school student from Poland, interested in anything tech-related, especially web development. 🛠️🌐
 
 ## 🚀 Github stats
 [<img width="50.25%" alt="github stats light" src="https://github-readme-stats.vercel.app/api?username=rivenintech&theme=default&show_icons=true&hide_title=true&hide_border=true&hide=issues&count_private=true&include_all_commits=true&icon_color=12D31D&title_color=00FF00" />](https://github.com/rivenintech#gh-light-mode-only)
