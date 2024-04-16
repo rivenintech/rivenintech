@@ -9,6 +9,8 @@
 
 I'm a high school student from Poland, interested in anything tech-related, especially web development. 🛠️🌐
 
+<a href='https://ko-fi.com/rivenintech' target='_blank'><img src='https://ko-fi.com/img/githubbutton_sm.svg' border='0' alt='Buy Me a Coffee at ko-fi.com' />
+
 ## 🚀 Github stats
 [<img width="50.25%" alt="github stats light" src="https://github-readme-stats.vercel.app/api?username=rivenintech&theme=default&show_icons=true&hide_title=true&hide_border=true&hide=issues&count_private=true&include_all_commits=true&icon_color=12D31D&title_color=00FF00" />](https://github.com/rivenintech#gh-light-mode-only)
 [<img width="43.75%" alt="top languages light" src="https://github-readme-stats.vercel.app/api/top-langs/?username=rivenintech&theme=default&count_private=true&hide_border=true&title_color=454d57&layout=compact" />](https://github.com/rivenintech#gh-light-mode-only)
