@@ -2,8 +2,8 @@
 
 [![Contact Me badge](https://img.shields.io/badge/-Contact%20Me-000000?style=flat-square&labelColor=000000&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxZW0iIGhlaWdodD0iMWVtIiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9IndoaXRlIiBkPSJNNCAyMHEtLjgyNSAwLTEuNDEyLS41ODdUMiAxOFY2cTAtLjgyNS41ODgtMS40MTJUNCA0aDE2cS44MjUgMCAxLjQxMy41ODhUMjIgNnYxMnEwIC44MjUtLjU4NyAxLjQxM1QyMCAyMHptOC03bDgtNVY2bC04IDVsLTgtNXYyeiIvPjwvc3ZnPg==)](https://rivenintech.com/#contact)
 [![X badge](https://img.shields.io/badge/-Twitter-000000?style=flat-square&labelColor=000000&logo=x&logoColor=white)](https://twitter.com/rivenintech)
-[![Medium badge](https://img.shields.io/badge/-Medium-000000?style=flat-square&labelColor=000000&logo=medium&logoColor=white)](https://medium.com/rivenintech)
-[![Stackoverflow badge](https://img.shields.io/badge/-Stackoverflow-f48225?style=flat-square&labelColor=f48225&logo=stackoverflow&logoColor=white)](https://stackoverflow.com/users/14048071)
+[![YouTube badge](https://img.shields.io/badge/-YouTube-FF0000?style=flat-square&labelColor=FF0000&logo=youtube&logoColor=white)](https://youtube.com/@rivenintech)
+[![Stackoverflow badge](https://img.shields.io/badge/-StackOverflow-f48225?style=flat-square&labelColor=f48225&logo=stackoverflow&logoColor=white)](https://stackoverflow.com/users/14048071)
 [![Frontend Mentor badge](https://img.shields.io/badge/-Frontend%20Mentor-3F54A3?style=flat-square&labelColor=3F54A3&logo=frontendmentor&logoColor=white)](https://www.frontendmentor.io/profile/rivenintech)
 [![HackerRank badge](https://img.shields.io/badge/-HackerRank-21b857?style=flat-square&labelColor=21b857&logo=hackerrank&logoColor=white)](https://www.hackerrank.com/rivenintech)
 
@@ -11,15 +11,17 @@ I'm a high school student from Poland, interested in anything tech-related, espe
 
 <a href='https://ko-fi.com/rivenintech' target='_blank'><img src='https://ko-fi.com/img/githubbutton_sm.svg' border='0' alt='Buy Me a Coffee at ko-fi.com' />
 
-## 🚀 Github stats
-[<img width="50.25%" alt="github stats light" src="https://github-readme-stats.vercel.app/api?username=rivenintech&theme=default&show_icons=true&hide_title=true&hide_border=true&hide=issues&count_private=true&include_all_commits=true&icon_color=12D31D&title_color=00FF00" />](https://github.com/rivenintech#gh-light-mode-only)
-[<img width="43.75%" alt="top languages light" src="https://github-readme-stats.vercel.app/api/top-langs/?username=rivenintech&theme=default&count_private=true&hide_border=true&title_color=454d57&layout=compact" />](https://github.com/rivenintech#gh-light-mode-only)
-[<img width="50.25%" alt="github stats dark" src="https://github-readme-stats.vercel.app/api?username=rivenintech&theme=github_dark&show_icons=true&hide_title=true&hide_border=true&hide=issues&count_private=true&include_all_commits=true&icon_color=12D31D&title_color=00FF00" />](https://github.com/rivenintech#gh-dark-mode-only)
-[<img width="43.75%" alt="top languages dark" src="https://github-readme-stats.vercel.app/api/top-langs/?username=rivenintech&theme=github_dark&count_private=true&hide_border=true&title_color=c1cbd3&layout=compact" />](https://github.com/rivenintech#gh-dark-mode-only)
+## 🚀 GitHub Stats & Contributions
+[<img alt="github stats light" src="https://github-readme-stats.vercel.app/api?username=rivenintech&theme=default&show_icons=true&hide_title=true&hide_border=true&hide=issues,prs,contribs&show=prs_merged&count_private=true&include_all_commits=true&icon_color=12D31D&title_color=00FF00" />](https://github.com/rivenintech#gh-light-mode-only)
+[<img alt="top languages light" src="https://github-readme-stats.vercel.app/api/top-langs/?username=rivenintech&theme=default&count_private=true&hide_border=true&title_color=454d57&layout=compact&hide=css" />](https://github.com/rivenintech#gh-light-mode-only)
+[<img alt="github stats dark" src="https://github-readme-stats.vercel.app/api?username=rivenintech&theme=github_dark&show_icons=true&hide_title=true&hide_border=true&hide=issues,prs,contribs&show=prs_merged&count_private=true&include_all_commits=true&icon_color=12D31D&title_color=00FF00" />](https://github.com/rivenintech#gh-dark-mode-only)
+[<img alt="top languages dark" src="https://github-readme-stats.vercel.app/api/top-langs/?username=rivenintech&theme=github_dark&count_private=true&hide_border=true&title_color=c1cbd3&layout=compact&hide=css" />](https://github.com/rivenintech#gh-dark-mode-only)
+
+- [elebumm/RedditVideoMakerBot](https://github.com/elebumm/RedditVideoMakerBot/pulls?q=is%3Apr+author%3Arivenintech+is%3Aclosed) - Creating Reddit Videos with just one command using Python.
 
 <br>
 
-## ⛵ Try out my Battleship game!
+## ⛵ Try Out My Battleship Game!
 ![](https://img.shields.io/badge/Total%20moves-49-blue)
 ![](https://img.shields.io/badge/Finished%20games-1-brightgreen)
 ![](https://img.shields.io/badge/Total%20players-5-orange)
