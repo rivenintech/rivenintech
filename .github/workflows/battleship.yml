@@ -45,7 +45,4 @@ jobs:
         git push
 
     - name: Close issue and comment
-      uses: peter-evans/close-issue@v2
-      with:
-        issue-number: ${{ github.event.issue.number }}
-        comment: ${{ env.ISSUE_MSG }}
+      run: gh issue close --comment ${{ env.ISSUE_MSG }} ${{ github.event.issue.number }}
