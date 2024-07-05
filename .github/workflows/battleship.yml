@@ -45,4 +45,6 @@ jobs:
         git push
 
     - name: Close issue and comment
-      run: gh issue close --comment ${{ env.ISSUE_MSG }} ${{ github.event.issue.number }}
+      run: gh issue close --comment "${{ env.ISSUE_MSG }}" "${{ github.event.issue.number }}"
+      env:
+        GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}

@@ -4,7 +4,7 @@ with open("README.md", "r") as f:
     file_content = f.readlines()
 
 for index, line in enumerate(file_content):
-    if "Try out my Battleship game!" in line:
+    if "try out my battleship game!" in line.lower():
         start_line = index
 
 
