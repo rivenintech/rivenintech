@@ -10,7 +10,7 @@ for index, line in enumerate(file_content):
 
 def new_game(loc_left: int):
     links = [
-        f"https://github.com/RiveN000/RiveN000/issues/new?title=battleship%7Cshoot%7C{x}&body=Just+push+%27Submit+new+issue%27+without+editing+the+title.+The+README+will+be+updated+after+approximately+30+seconds."
+        f"https://github.com/rivenintech/rivenintech/issues/new?title=battleship%7Cshoot%7C{x}&body=Just+push+%27Submit+new+issue%27+without+editing+the+title.+The+README+will+be+updated+after+approximately+30+seconds."
         for x in range(0, 71)
     ]
 
@@ -38,7 +38,7 @@ def new_game(loc_left: int):
 """
     template = template.replace(
         "image",
-        "https://raw.githubusercontent.com/RiveN000/RiveN000/main/assets/blank.png",
+        "https://raw.githubusercontent.com/rivenintech/rivenintech/main/assets/blank.png",
     )
 
     # Read file content
@@ -75,7 +75,7 @@ def shoot(
     temp = file_content[row].split("|")
     temp[
         col
-    ] = f"![](https://raw.githubusercontent.com/RiveN000/RiveN000/main/assets/{action}_mark.png)"
+    ] = f"![](https://raw.githubusercontent.com/rivenintech/rivenintech/main/assets/{action}_mark.png)"
     file_content[row] = "|".join(temp)
     file_content[
         start_line + 1
@@ -112,7 +112,7 @@ def game_ended(total_games: int, shots_num: int, places_left: list):
     ] = f"![](https://img.shields.io/badge/Total%20games-{total_games}-brightgreen)\n"
     file_content[
         start_line + 7
-    ] = f"**:tada: Game ended! It took: {shots_num} tries! [Click here to start new game.](https://github.com/RiveN000/RiveN000/issues/new?title=battleship%7Cnew&body=Just+push+%27Submit+new+issue%27+without+editing+the+title.+The+README+will+be+updated+after+approximately+30+seconds.)**\n"
+    ] = f"**:tada: Game ended! It took: {shots_num} tries! [Click here to start new game.](https://github.com/rivenintech/rivenintech/issues/new?title=battleship%7Cnew&body=Just+push+%27Submit+new+issue%27+without+editing+the+title.+The+README+will+be+updated+after+approximately+30+seconds.)**\n"
 
     # Loop through all locations that are left and change to "blank.png"
     for location in places_left:
@@ -121,7 +121,7 @@ def game_ended(total_games: int, shots_num: int, places_left: list):
         temp = file_content[row].split("|")
         temp[
             col
-        ] = f"![](https://raw.githubusercontent.com/RiveN000/RiveN000/main/assets/blank.png)"
+        ] = f"![](https://raw.githubusercontent.com/rivenintech/rivenintech/main/assets/blank.png)"
         file_content[row] = "|".join(temp)
 
     # Save file content
