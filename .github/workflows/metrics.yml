@@ -16,7 +16,7 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           filename: assets/github-metrics.*
           clean_workflows: success
-          repositories_skipped: rivenintech
+          repositories_skipped: rivenintech/rivenintech
           base: header, activity, community, repositories, metadata
           base_indepth: yes
           base_hireable: yes
