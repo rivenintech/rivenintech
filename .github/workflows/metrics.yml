@@ -16,5 +16,12 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           base: header, activity, community, repositories, metadata
           base_indepth: yes
+          base_hireable: yes
           plugin_lines: yes
           plugin_lines_delay: 30
+          plugin_lines_history_limit: 0
+          commits_authoring: 61630074+rivenintech@users.noreply.github.com, 61630074+RiveN000@users.noreply.github.com
+          plugin_gists: yes
+          plugin_followup: yes
+          plugin_followup_sections: user
+          plugin_followup_indepth: yes
