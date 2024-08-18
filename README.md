@@ -11,13 +11,11 @@ I'm a high school student from Poland, interested in anything tech-related, espe
 
 <a href='https://ko-fi.com/rivenintech' target='_blank'><img src='https://ko-fi.com/img/githubbutton_sm.svg' border='0' alt='Buy Me a Coffee at ko-fi.com' />
 
-## 🚀 GitHub Stats & Contributions
-[<img alt="github stats light" src="https://github-readme-stats.vercel.app/api?username=rivenintech&theme=default&show_icons=true&hide_title=true&hide_border=true&hide=issues,prs,contribs&show=prs_merged&count_private=true&include_all_commits=true&icon_color=12D31D&title_color=00FF00" />](https://github.com/rivenintech#gh-light-mode-only)
-[<img alt="top languages light" src="https://github-readme-stats.vercel.app/api/top-langs/?username=rivenintech&theme=default&count_private=true&hide_border=true&title_color=454d57&layout=compact&hide=css" />](https://github.com/rivenintech#gh-light-mode-only)
-[<img alt="github stats dark" src="https://github-readme-stats.vercel.app/api?username=rivenintech&theme=github_dark&show_icons=true&hide_title=true&hide_border=true&hide=issues,prs,contribs&show=prs_merged&count_private=true&include_all_commits=true&icon_color=12D31D&title_color=00FF00" />](https://github.com/rivenintech#gh-dark-mode-only)
-[<img alt="top languages dark" src="https://github-readme-stats.vercel.app/api/top-langs/?username=rivenintech&theme=github_dark&count_private=true&hide_border=true&title_color=c1cbd3&layout=compact&hide=css" />](https://github.com/rivenintech#gh-dark-mode-only)
+<br>
 
-- [elebumm/RedditVideoMakerBot](https://github.com/elebumm/RedditVideoMakerBot/pulls?q=is%3Apr+author%3Arivenintech+is%3Aclosed) - Creating Reddit Videos with just one command using Python.
+## 🚀 GitHub Contributions
+
+
 
 <br>
 
