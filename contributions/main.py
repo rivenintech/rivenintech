@@ -74,20 +74,14 @@ def create_contribution_list_md_format(grouped_prs):
     for repo, pr in grouped_prs.items():
         pr_types = []
         if pr["merged"] > 0:
-            pr_types.append(
-                f'<img src="assets/pr-merged.svg" height="18" align="center" /> {pr["merged"]} merged'
-            )
+            pr_types.append(f'🟣 {pr["merged"]} merged')
         if pr["open"] > 0:
-            pr_types.append(
-                f'<img src="assets/pr-open.svg" height="18" align="center" /> {pr['open']} open'
-            )
+            pr_types.append(f"🟢 {pr['open']} open")
         if pr["closed"] > 0:
-            pr_types.append(
-                f'<img src="assets/pr-closed.svg" height="18" align="center" /> {pr['closed']} closed'
-            )
+            pr_types.append(f"🔴 {pr['closed']} closed")
 
         pr_types_str = ", ".join(pr_types)
-        string = f"- [{repo}]({pr['url']}) ({pr_types_str}) - {pr["description"]}"
+        string = f'- [{repo}]({pr["url"]}) ({pr_types_str}) - *"{pr["description"]}"*'
 
         contributions.append(string)
 
