@@ -15,7 +15,7 @@ I'm a high school student from Poland, interested in anything tech-related, espe
 
 ## 🚀 GitHub Contributions
 
-
+- [elebumm/RedditVideoMakerBot](https://github.com/elebumm/RedditVideoMakerBot/pulls/rivenintech) (<img src="assets/pr-merged.svg" height="18" align="center" /> 7 merged, <img src="assets/pr-closed.svg" height="18" align="center" /> 1 closed) - Create Reddit Videos with just✨ one command ✨
 
 <br>
 
