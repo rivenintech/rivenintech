@@ -44,7 +44,6 @@ def group_prs(pull_requests):
                 "url": f"https://github.com/{repo}/pulls/{pr["user"]["login"]}",
                 "description": get_repo_description(repo),
                 "open": 0,
-                "closed": 0,
                 "merged": 0,
             }
 
@@ -52,8 +51,6 @@ def group_prs(pull_requests):
             grouped_prs[repo]["open"] += 1
         elif pr["pull_request"]["merged_at"]:
             grouped_prs[repo]["merged"] += 1
-        elif pr["pull_request"]["merged_at"] is None:
-            grouped_prs[repo]["closed"] += 1
 
     return grouped_prs
 
@@ -62,7 +59,7 @@ def sort_prs(grouped_prs):
     return dict(
         sorted(
             grouped_prs.items(),
-            key=lambda x: x[1]["open"] + x[1]["closed"] + x[1]["merged"],
+            key=lambda x: x[1]["open"] + x[1]["merged"],
             reverse=True,
         )
     )
@@ -77,8 +74,6 @@ def create_contribution_list_md_format(grouped_prs):
             pr_types.append(f'🟣 {pr["merged"]} merged')
         if pr["open"] > 0:
             pr_types.append(f"🟢 {pr['open']} open")
-        if pr["closed"] > 0:
-            pr_types.append(f"🔴 {pr['closed']} closed")
 
         pr_types_str = ", ".join(pr_types)
         string = f'- [{repo}]({pr["url"]}) ({pr_types_str}) - *"{pr["description"]}"*'
