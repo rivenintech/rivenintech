@@ -7,7 +7,7 @@
 [![Frontend Mentor badge](https://img.shields.io/badge/-Frontend%20Mentor-3F54A3?style=flat-square&labelColor=3F54A3&logo=frontendmentor&logoColor=white)](https://www.frontendmentor.io/profile/rivenintech)
 [![HackerRank badge](https://img.shields.io/badge/-HackerRank-21b857?style=flat-square&labelColor=21b857&logo=hackerrank&logoColor=white)](https://www.hackerrank.com/rivenintech)
 
-I'm a high school student from Poland, interested in anything tech-related, especially web development. 🛠️🌐
+I'm a passionate self-taught developer from Poland, interested in anything tech-related, especially web development. 🛠️🌐
 
 <a href='https://ko-fi.com/rivenintech' target='_blank'><img src='https://ko-fi.com/img/githubbutton_sm.svg' border='0' alt='Buy Me a Coffee at ko-fi.com' />
 
