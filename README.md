@@ -1,15 +1,14 @@
 # Hi, I'm [RiveN](https://github.com/rivenintech)! <img alt="waving gif" src="assets/waving.gif" width="25">
 
 [![Contact Me badge](https://img.shields.io/badge/-Contact%20Me-000000?style=flat-square&labelColor=000000&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxZW0iIGhlaWdodD0iMWVtIiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9IndoaXRlIiBkPSJNNCAyMHEtLjgyNSAwLTEuNDEyLS41ODdUMiAxOFY2cTAtLjgyNS41ODgtMS40MTJUNCA0aDE2cS44MjUgMCAxLjQxMy41ODhUMjIgNnYxMnEwIC44MjUtLjU4NyAxLjQxM1QyMCAyMHptOC03bDgtNVY2bC04IDVsLTgtNXYyeiIvPjwvc3ZnPg==)](https://rivenintech.com/#contact)
-[![X badge](https://img.shields.io/badge/-Twitter-000000?style=flat-square&labelColor=000000&logo=x&logoColor=white)](https://twitter.com/rivenintech)
+[![X badge](https://img.shields.io/badge/-Twitter-000000?style=flat-square&labelColor=000000&logo=x&logoColor=white)](https://x.com/rivenintech)
 [![YouTube badge](https://img.shields.io/badge/-YouTube-FF0000?style=flat-square&labelColor=FF0000&logo=youtube&logoColor=white)](https://youtube.com/@rivenintech)
 [![Stackoverflow badge](https://img.shields.io/badge/-StackOverflow-f48225?style=flat-square&labelColor=f48225&logo=stackoverflow&logoColor=white)](https://stackoverflow.com/users/14048071)
 [![Frontend Mentor badge](https://img.shields.io/badge/-Frontend%20Mentor-3F54A3?style=flat-square&labelColor=3F54A3&logo=frontendmentor&logoColor=white)](https://www.frontendmentor.io/profile/rivenintech)
 [![HackerRank badge](https://img.shields.io/badge/-HackerRank-21b857?style=flat-square&labelColor=21b857&logo=hackerrank&logoColor=white)](https://www.hackerrank.com/rivenintech)
+[![LeetCode badge](https://img.shields.io/badge/-LeetCode-F79E1B?style=flat-square&labelColor=F79E1B&logo=leetcode&logoColor=white)](https://leetcode.com/u/rivenintech/)
 
-I'm a passionate self-taught developer from Poland, interested in anything tech-related, especially web development. 🛠️🌐
-
-<a href='https://ko-fi.com/rivenintech' target='_blank'><img src='https://ko-fi.com/img/githubbutton_sm.svg' border='0' alt='Buy Me a Coffee at ko-fi.com' />
+I'm a passionate developer from Poland, interested in anything tech-related. 🛠️🌐
 
 <br>
 
