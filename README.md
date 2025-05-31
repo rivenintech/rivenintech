@@ -15,6 +15,7 @@ I'm a passionate developer from Poland, interested in anything tech-related. �
 ## 🚀 GitHub Contributions
 
 - [elebumm/RedditVideoMakerBot](https://github.com/elebumm/RedditVideoMakerBot/pulls/rivenintech) (🟣 7 merged) - *"Create Reddit Videos with just✨ one command ✨"*
+- [rivenintech/WatchVault](https://github.com/rivenintech/WatchVault/pulls/rivenintech) (🟣 1 merged) - *"🍿A minimalistic app to track movies and TV shows, discover new favorites, and manage your watchlist effortlessly. "*
 
 <br>
 
