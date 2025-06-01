@@ -22,7 +22,10 @@ def get_prs(user):
         f"https://api.github.com/search/issues?q=author%3A{user}+type%3Apr",
     )
 
-    return prs.json()["items"]
+    prs_json: list = prs.json()["items"]
+    filtered_prs = [pr for pr in prs_json if not pr["author_association"] == "OWNER"]
+
+    return filtered_prs
 
 
 def get_repo_description(repo):
