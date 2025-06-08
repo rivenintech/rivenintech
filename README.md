@@ -15,6 +15,7 @@ I'm a passionate developer from Poland, interested in anything tech-related. �
 ## 🚀 GitHub Contributions
 
 - [elebumm/RedditVideoMakerBot](https://github.com/elebumm/RedditVideoMakerBot/pulls/rivenintech) (🟣 7 merged) - *"Create Reddit Videos with just✨ one command ✨"*
+- [cloudflare/workers-graphql-server](https://github.com/cloudflare/workers-graphql-server/pulls/rivenintech) (🟢 1 open) - *"🔥Lightning-fast, globally distributed Apollo GraphQL server, deployed at the edge using Cloudflare Workers"*
 
 <br>
 
