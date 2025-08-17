@@ -79,7 +79,8 @@ def create_contribution_list_md_format(grouped_prs):
             pr_types.append(f"🟢 {pr['open']} open")
 
         pr_types_str = ", ".join(pr_types)
-        string = f'- [{repo}]({pr["url"]}) ({pr_types_str}) - *"{pr["description"]}"*'
+        repo_description = f' - *"{pr["description"]}"*' if pr["description"] else ""
+        string = f'- [{repo}]({pr["url"]}) ({pr_types_str}){repo_description}'
 
         contributions.append(string)
 
