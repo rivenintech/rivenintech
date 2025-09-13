@@ -21,7 +21,7 @@ I'm a passionate developer from Poland, interested in anything tech-related. üõ
 <br>
 
 ## ‚õµ Try Out My Battleship Game!
-![](https://img.shields.io/badge/Total%20moves-72-blue)
+![](https://img.shields.io/badge/Total%20moves-73-blue)
 ![](https://img.shields.io/badge/Finished%20games-1-brightgreen)
 ![](https://img.shields.io/badge/Total%20players-7-orange)
 
@@ -38,15 +38,15 @@ I'm a passionate developer from Poland, interested in anything tech-related. üõ
 | **5** |[![](https://raw.githubusercontent.com/rivenintech/rivenintech/main/assets/blank.png)](https://github.com/rivenintech/rivenintech/issues/new?title=battleship%7Cshoot%7C36&body=Just+push+%27Submit+new+issue%27+without+editing+the+title.+The+README+will+be+updated+after+approximately+30+seconds.)|![](https://raw.githubusercontent.com/rivenintech/rivenintech/main/assets/hit_mark.png)|![](https://raw.githubusercontent.com/rivenintech/rivenintech/main/assets/miss_mark.png)|![](https://raw.githubusercontent.com/rivenintech/rivenintech/main/assets/miss_mark.png)|[![](https://raw.githubusercontent.com/rivenintech/rivenintech/main/assets/blank.png)](https://github.com/rivenintech/rivenintech/issues/new?title=battleship%7Cshoot%7C40&body=Just+push+%27Submit+new+issue%27+without+editing+the+title.+The+README+will+be+updated+after+approximately+30+seconds.)|![](https://raw.githubusercontent.com/rivenintech/rivenintech/main/assets/miss_mark.png)|![](https://raw.githubusercontent.com/rivenintech/rivenintech/main/assets/hit_mark.png)|![](https://raw.githubusercontent.com/rivenintech/rivenintech/main/assets/miss_mark.png)|
 | **6** |![](https://raw.githubusercontent.com/rivenintech/rivenintech/main/assets/miss_mark.png)|![](https://raw.githubusercontent.com/rivenintech/rivenintech/main/assets/miss_mark.png)|![](https://raw.githubusercontent.com/rivenintech/rivenintech/main/assets/hit_mark.png)|![](https://raw.githubusercontent.com/rivenintech/rivenintech/main/assets/miss_mark.png)|![](https://raw.githubusercontent.com/rivenintech/rivenintech/main/assets/miss_mark.png)|![](https://raw.githubusercontent.com/rivenintech/rivenintech/main/assets/miss_mark.png)|![](https://raw.githubusercontent.com/rivenintech/rivenintech/main/assets/hit_mark.png)|![](https://raw.githubusercontent.com/rivenintech/rivenintech/main/assets/miss_mark.png)|
 | **7** |[![](https://raw.githubusercontent.com/rivenintech/rivenintech/main/assets/blank.png)](https://github.com/rivenintech/rivenintech/issues/new?title=battleship%7Cshoot%7C54&body=Just+push+%27Submit+new+issue%27+without+editing+the+title.+The+README+will+be+updated+after+approximately+30+seconds.)|![](https://raw.githubusercontent.com/rivenintech/rivenintech/main/assets/miss_mark.png)|![](https://raw.githubusercontent.com/rivenintech/rivenintech/main/assets/hit_mark.png)|[![](https://raw.githubusercontent.com/rivenintech/rivenintech/main/assets/blank.png)](https://github.com/rivenintech/rivenintech/issues/new?title=battleship%7Cshoot%7C57&body=Just+push+%27Submit+new+issue%27+without+editing+the+title.+The+README+will+be+updated+after+approximately+30+seconds.)|![](https://raw.githubusercontent.com/rivenintech/rivenintech/main/assets/miss_mark.png)|![](https://raw.githubusercontent.com/rivenintech/rivenintech/main/assets/miss_mark.png)|![](https://raw.githubusercontent.com/rivenintech/rivenintech/main/assets/miss_mark.png)|[![](https://raw.githubusercontent.com/rivenintech/rivenintech/main/assets/blank.png)](https://github.com/rivenintech/rivenintech/issues/new?title=battleship%7Cshoot%7C61&body=Just+push+%27Submit+new+issue%27+without+editing+the+title.+The+README+will+be+updated+after+approximately+30+seconds.)|
-| **8** |![](https://raw.githubusercontent.com/rivenintech/rivenintech/main/assets/miss_mark.png)|[![](https://raw.githubusercontent.com/rivenintech/rivenintech/main/assets/blank.png)](https://github.com/rivenintech/rivenintech/issues/new?title=battleship%7Cshoot%7C64&body=Just+push+%27Submit+new+issue%27+without+editing+the+title.+The+README+will+be+updated+after+approximately+30+seconds.)|![](https://raw.githubusercontent.com/rivenintech/rivenintech/main/assets/hit_mark.png)|![](https://raw.githubusercontent.com/rivenintech/rivenintech/main/assets/miss_mark.png)|![](https://raw.githubusercontent.com/rivenintech/rivenintech/main/assets/hit_mark.png)|![](https://raw.githubusercontent.com/rivenintech/rivenintech/main/assets/hit_mark.png)|![](https://raw.githubusercontent.com/rivenintech/rivenintech/main/assets/miss_mark.png)|[![](https://raw.githubusercontent.com/rivenintech/rivenintech/main/assets/blank.png)](https://github.com/rivenintech/rivenintech/issues/new?title=battleship%7Cshoot%7C70&body=Just+push+%27Submit+new+issue%27+without+editing+the+title.+The+README+will+be+updated+after+approximately+30+seconds.)|
+| **8** |![](https://raw.githubusercontent.com/rivenintech/rivenintech/main/assets/miss_mark.png)|[![](https://raw.githubusercontent.com/rivenintech/rivenintech/main/assets/blank.png)](https://github.com/rivenintech/rivenintech/issues/new?title=battleship%7Cshoot%7C64&body=Just+push+%27Submit+new+issue%27+without+editing+the+title.+The+README+will+be+updated+after+approximately+30+seconds.)|![](https://raw.githubusercontent.com/rivenintech/rivenintech/main/assets/hit_mark.png)|![](https://raw.githubusercontent.com/rivenintech/rivenintech/main/assets/miss_mark.png)|![](https://raw.githubusercontent.com/rivenintech/rivenintech/main/assets/hit_mark.png)|![](https://raw.githubusercontent.com/rivenintech/rivenintech/main/assets/hit_mark.png)|![](https://raw.githubusercontent.com/rivenintech/rivenintech/main/assets/miss_mark.png)|![](https://raw.githubusercontent.com/rivenintech/rivenintech/main/assets/miss_mark.png)|
 
 <br>
 
 |‚è∞ Most recent moves|
 |--------------------|
+[@YousefHadder](https://github.com/YousefHadder) missed the ship at location **H8**
 [@YousefHadder](https://github.com/YousefHadder) hit the ship at location **C8**
 [@YousefHadder](https://github.com/YousefHadder) hit the ship at location **C6**
-[@YousefHadder](https://github.com/YousefHadder) missed the ship at location **C1**
 
 **üèÜ Leaderboard: Top 5 players with most shots that hit the ships**
 
@@ -54,7 +54,7 @@ I'm a passionate developer from Poland, interested in anything tech-related. üõ
 |---|---|---|
 |[@rivenintech](https://github.com/rivenintech)|16|39|
 |[@petrus9](https://github.com/petrus9)|6|13|
-|[@YousefHadder](https://github.com/YousefHadder)|5|13|
+|[@YousefHadder](https://github.com/YousefHadder)|5|14|
 |[@soarn](https://github.com/soarn)|0|3|
 |[@yashpreet2707](https://github.com/yashpreet2707)|0|2|
 
